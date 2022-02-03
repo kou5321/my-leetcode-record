@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "d67856689ac05c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "01d2425c890f5f7f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "java库函数总结.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ecb0651c1c2672c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a035654e9cbcbc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2e73a332e8f2389",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bf060bc94f2d4044",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9e569fe85f8fb8c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd72d966452a88f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "939ac998580ba9fe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "java库函数总结.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "01d2425c890f5f7f",
+  "lastOpenFiles": [
+    "java库函数总结.md"
+  ]
+}
