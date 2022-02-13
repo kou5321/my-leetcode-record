@@ -7,7 +7,7 @@ public class findDecodeString {
     int ptr;
     public String decodeString(String s) {
         LinkedList<String> stk = new LinkedList<String>();
-        ptr = 0;
+        ptr = 0; // 记录处理第几个字符
 
         while(ptr < s.length()) {
             char cur = s.charAt(ptr);
@@ -38,6 +38,7 @@ public class findDecodeString {
     }
 
     public String getDigits(String s) {
+        // 数字变为字符
         StringBuffer ret = new StringBuffer();
         while (Character.isDigit(s.charAt(ptr))) {
             ret.append(s.charAt(ptr++));
@@ -46,6 +47,7 @@ public class findDecodeString {
     }
 
     public String getString(LinkedList<String> v) {
+        // linkedlsit变为字符
         StringBuffer ret = new StringBuffer();
         for (String s : v) {
             ret.append(s);
