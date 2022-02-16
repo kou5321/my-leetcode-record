@@ -3,6 +3,7 @@ package Tree;
 import javax.swing.tree.TreeNode;
 
 public class findSymmetricTree {
+    // 101
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
         return deepCheck(root.left, root.right);
