@@ -3,7 +3,13 @@ package Array;
 import java.util.HashMap;
 
 public class findLengthOfLongestSubstring {
-    public int lengthOfLongestSubstring(String s) {
+    public static void main(String[] args) {
+        String s = "aabb";
+        int res = lengthOfLongestSubstring(s);
+        System.out.println(res);
+    }
+
+    public static int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> window = new HashMap<>();
         // 记录字母，数组索引
         int left = 0, right = 0;
