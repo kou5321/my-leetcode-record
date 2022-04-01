@@ -2,7 +2,7 @@ package Array;
 
 import java.util.HashMap;
 
-public class findCheckInclusion {
+public class CheckInclusion567 {
     public boolean checkInclusion(String s1, String s2) {
         HashMap<Character, Integer> dict = new HashMap<>();
         for (int i = 0; i < s1.length(); i++) {

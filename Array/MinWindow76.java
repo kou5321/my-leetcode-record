@@ -2,7 +2,7 @@ package Array;
 
 import java.util.HashMap;
 
-public class findMinWindow {
+public class MinWindow76 {
     public String minWindow(String s, String t) {
         HashMap<Character, Integer> goal = new HashMap<>();
         int goalSize = t.length();
